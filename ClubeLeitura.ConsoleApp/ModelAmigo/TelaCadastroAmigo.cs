@@ -11,6 +11,7 @@ namespace ClubeLeitura.ConsoleApp
        public Amigo[] arrayAmigo;
         public int numeroAmigo;
         public Notificador notificador;
+        public RepositórioAmigo repositorioAmigo;
 
         public string MostrarOpcoes()
         {
@@ -48,27 +49,15 @@ namespace ClubeLeitura.ConsoleApp
         }
         public void InserirNovoAmigo()
         {
-            MostrarTitulo("Inserindo novo Amigo");
+            MostrarTitulo("Inserindo nova Caixa");
 
-            Amigo amigo = ObterAmigo();
+            Amigo novoAmigo = ObterAmigo();
 
-            amigo.numeroAmigo = ++numeroAmigo;
+            repositorioAmigo.Inserir(novoAmigo);
 
-            int posicaoVazia = ObterPosicaoVazia();
-            arrayAmigo[posicaoVazia] = amigo;
-
-            notificador.ApresentarMensagem("Amigo inserida com sucesso!", "Sucesso");
+            notificador.ApresentarMensagem("Caixa inserida com sucesso!", "Sucesso");
         }
-        public int ObterPosicaoVazia()
-        {
-            for (int i = 0; i < arrayAmigo.Length; i++)
-            {
-                if (arrayAmigo[i] == null)
-                    return i;
-            }
-
-            return -1;
-        }
+       
         public void MostrarTitulo(string titulo)
         {
             Console.Clear();
@@ -108,16 +97,9 @@ namespace ClubeLeitura.ConsoleApp
             VisualizarAmigo("Pesquisando");
 
             Console.Write("Digite o número da caixa que deseja excluir: ");
-            int numeroCaixa = Convert.ToInt32(Console.ReadLine());
+            int numeroSelecionado = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < arrayAmigo.Length; i++)
-            {
-                if (arrayAmigo[i].numeroAmigo == numeroCaixa)
-                {
-                    arrayAmigo[i] = null;
-                    break;
-                }
-            }
+            repositorioAmigo.Excluir(numeroSelecionado);
 
             notificador.ApresentarMensagem("Caixa excluída com sucesso", "Sucesso");
         }

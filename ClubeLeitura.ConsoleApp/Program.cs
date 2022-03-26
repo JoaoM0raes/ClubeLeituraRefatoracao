@@ -25,7 +25,7 @@ namespace ClubeLeitura.ConsoleApp
             telaCadastroAmigo.notificador = new Notificador();
 
             while (true)
-            {                
+            {
                 string opcaoMenuPrincipal = menuPrincipal.MostrarOpcoes();
 
                 if (opcaoMenuPrincipal == "1")
@@ -45,9 +45,13 @@ namespace ClubeLeitura.ConsoleApp
                         telaCadastroCaixa.ExcluirCaixa();
                     }
                     else if (opcao == "4")
-                    {
-                        telaCadastroCaixa.VisualizarCaixas("Tela");
-                        Console.ReadLine(); 
+                    { bool temcaixa= telaCadastroCaixa.VisualizarCaixas("Tela");
+                        if (temcaixa == false)
+                        {
+                             Console.WriteLine("Erro");
+
+                        }
+                        Console.ReadLine();
                     }
                 }
                 if (opcaoMenuPrincipal == "3")
@@ -68,8 +72,7 @@ namespace ClubeLeitura.ConsoleApp
                     }
                     else if (opcao == "4")
                     {
-                        telaCadastroAmigo.VisualizarAmigo("Tela");
-                        Console.ReadLine();
+                      telaCadastroAmigo.VisualizarAmigo("Tela");
                     }
                 }
             }

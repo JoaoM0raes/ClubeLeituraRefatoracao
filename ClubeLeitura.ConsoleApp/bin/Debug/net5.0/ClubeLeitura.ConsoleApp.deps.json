@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ClubeLeitura.ConsoleApp/1.0.0": {
+        "runtime": {
+          "ClubeLeitura.ConsoleApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClubeLeitura.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

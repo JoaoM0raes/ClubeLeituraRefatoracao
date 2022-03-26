@@ -1,0 +1,16 @@
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\bin\Debug\net5.0\ClubeLeitura.ConsoleApp.exe
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\bin\Debug\net5.0\ClubeLeitura.ConsoleApp.deps.json
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\bin\Debug\net5.0\ClubeLeitura.ConsoleApp.runtimeconfig.json
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\bin\Debug\net5.0\ClubeLeitura.ConsoleApp.runtimeconfig.dev.json
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\bin\Debug\net5.0\ClubeLeitura.ConsoleApp.dll
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\bin\Debug\net5.0\ClubeLeitura.ConsoleApp.pdb
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.AssemblyInfo.cs
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.dll
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\refint\ClubeLeitura.ConsoleApp.dll
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.pdb
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ClubeLeitura.ConsoleApp.genruntimeconfig.cache
+C:\Users\João Moraes\Source\Repos\ClubeLeitura\ClubeLeitura.ConsoleApp\obj\Debug\net5.0\ref\ClubeLeitura.ConsoleApp.dll
